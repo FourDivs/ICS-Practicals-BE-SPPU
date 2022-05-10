@@ -29,7 +29,6 @@ def split_bits_into_two_parts(bits_list):
 
 
 def left_shift_bits_list(bits_list, shift_amount=1):
-    n = len(bits_list)
     shifted_bits_list = bits_list[shift_amount:] + bits_list[:shift_amount]
     return shifted_bits_list
 
